@@ -1,0 +1,78 @@
+/* start global */
+
+body{
+    background: #ddd;
+    direction: rtl;
+}
+
+.contener{
+    margin: 20px auto;
+    width: 940px;
+    background-color: #fff;
+}
+
+/* end global */
+
+/* start header */
+
+header{
+    background: #aaa;
+    height: 100px;
+}
+
+header .logo{
+    height: 100px;
+	width: 20%;
+    background: #f1f1f1;
+}
+
+header nav{
+    height: 100px;
+	width: 80%;
+    background: #f4f4f4;
+}
+
+/* end header */
+
+/* start content */
+
+.content{
+    height: 500px;
+    background: #ddd;
+}
+
+.content .sidebar{
+	float: left;
+	margin-right: 1%;
+	height: 500px;
+	width: 20%;
+	background-color: #666;
+}
+
+.content .product{
+	float: right;
+	height: 500px;
+	width: 79%;
+	background-color: #888;
+}
+
+/* end content */
+
+/* start footer */
+
+footer{
+    min-height: 100px;
+    background-color: #ccc;
+}
+
+footer .info{
+	height: 100px;
+	background-color: #454545;
+}
+
+footer .copyright{
+	height: 10px;
+	background-color: #454545;
+}
+
+/* end footer */
